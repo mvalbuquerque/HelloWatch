@@ -42,6 +42,7 @@ int x = 0;
     x++;
     NSString *myString = [NSString stringWithFormat:@"%d",x];
     self.myLabel.text = myString;
+    NSLog(@"Adicionou %i",x);
     
 }
 
@@ -51,6 +52,7 @@ int x = 0;
     x--;
     NSString *myString = [NSString stringWithFormat:@"%d",x];
     self.myLabel.text = myString;
+    NSLog(@"Diminuiu %i",x);
     
 }
 
