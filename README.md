@@ -1,2 +1,0 @@
-# HelloWatchSample
-Exemplo AppleWatch 
